@@ -1,0 +1,32 @@
+{
+  "name": "admin-schotest",
+  "version": "1.0.0",
+  "description": "admin for scholarship application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "rjay balinton",
+  "license": "ISC",
+  "dependencies": {
+    "admin-schotest": "file:",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.10",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "nodemailer": "^6.9.16",
+    "nodemailer-express-handlebars": "^7.0.0",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  }
+}
